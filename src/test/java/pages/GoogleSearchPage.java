@@ -9,22 +9,19 @@ import utilities.Driver;
 
 public class GoogleSearchPage {
     private WebDriver driver;
+
     public GoogleSearchPage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
 
+
     @FindBy(name = "q")
     private WebElement searchText;
 
-    public void searchFor(String key){
-        searchText.sendKeys(key);
-        searchText.submit();
-    }
-    @FindBy(id="L2AGLb")
-    private WebElement cookies;
 
-    public void acceptCookies(){
-        cookies.click();
+    public void searchFor(String key){
+        searchText.sendKeys(key + Keys.ENTER);
     }
+
 }
