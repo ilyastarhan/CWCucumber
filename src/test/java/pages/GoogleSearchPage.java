@@ -20,8 +20,15 @@ public class GoogleSearchPage {
     private WebElement searchText;
 
 
-    public void searchFor(String key){
-        searchText.sendKeys(key + Keys.ENTER);
+    public void searchFor(String value) {
+        searchText.sendKeys(value + Keys.ENTER);
+
+    }
+    @FindBy(id = "L2AGLb")
+    WebElement cookie;
+
+    public void acceptCookies(){
+        cookie.click();
     }
 
 }
