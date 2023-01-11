@@ -9,7 +9,7 @@ import org.openqa.selenium.TakesScreenshot;
 import utilities.Driver;
 
 public class Hooks {
-    @Before
+    @Before()
     public void setup(){
         System.out.println("Before method calisti");
 

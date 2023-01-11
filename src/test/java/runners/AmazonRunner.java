@@ -1,16 +1,14 @@
 package runners;
 
+
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
-
-// Sadece @smoke tagine sahip olan senaryolari calistiran runner
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "src/test/resources/features",
+        features = "src/test/resources/features/06_ScenarioOutlineExample.feature",
         glue = "stepdefinitions",
-        tags = "@smoke",
         plugin = {"html:target/cucumber-reports.html",
                 "json:target/json-reports/cucumber.json",
                 "junit:target/xml-reports/cucumber.xml"},
@@ -25,6 +23,7 @@ import org.junit.runner.RunWith;
         "@tag1 or @tag2" -> @tag1 ya da @tag2 ile etiketlenen senaryolar
 
         */
+public class AmazonRunner {
 
-public class TagRunner {
+
 }

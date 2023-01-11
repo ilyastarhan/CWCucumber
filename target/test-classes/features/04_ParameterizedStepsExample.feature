@@ -23,5 +23,5 @@ Feature: Parametreli step kullanimi
       | sayi1 | sayi2 | operator |result|
       | 5     | 3     | +        |8     |
       | 6     | 4     | -        |2     |
-      | 7     | 3     | *        |21    |
+      | 7     | 3     | *        |20    |
       | 10    | 2     | /        |5     |
