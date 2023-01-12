@@ -45,6 +45,5 @@ public class ParameterizedStepsExampleStepDefinitions {
         Assert.assertEquals(result,sonuc);
         //deneme branci
 
-//deneme 2
     }
 }
