@@ -44,6 +44,6 @@ public class ParameterizedStepsExampleStepDefinitions {
     public void sonuc(int result){
         Assert.assertEquals(result,sonuc);
         //deneme branci
-
+//dawdd
     }
 }
