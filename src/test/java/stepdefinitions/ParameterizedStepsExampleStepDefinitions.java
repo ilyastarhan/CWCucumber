@@ -43,6 +43,8 @@ public class ParameterizedStepsExampleStepDefinitions {
     @Then("Sonuc {int} olmalidir")
     public void sonuc(int result){
         Assert.assertEquals(result,sonuc);
+        //deneme branci
+
 
     }
 }
