@@ -21,35 +21,35 @@ public class OrangeHRMStepDefinitions {
     public void kullaniciCredentialsGirer(DataTable table) {
 
 //         List metoduyla table i parcalama
-//
-//                List<List<String>> data =  table.asLists();
-//
-//        for (List<String> satir : data) {
-//            for (String hucre : satir) {
-//                System.out.print(hucre + " - ");
-//            }
-//            System.out.println();
-//        }
 
-//        String username = table.cell(1,0);
-//        String password = table.cell(1,1);
+                List<List<String>> data =  table.asLists();
 
-//        int rowCount = table.height();
-//        int colCount = table.width();
-//
-//        for(int i = 1; i < rowCount; i++){
-//            for (int j = 0; j < colCount; j++){
-//
-//                System.out.println(table.cell(i,j));
-//
-//            }
-//        }
+        for (List<String> satir : data) {
+            for (String hucre : satir) {
+                System.out.print(hucre + " - ");
+            }
+            System.out.println();
+        }
+
+       String username = table.cell(1,0);
+       String password = table.cell(1,1);
+
+       int rowCount = table.height();
+       int colCount = table.width();
+
+       for(int i = 1; i < rowCount; i++){
+           for (int j = 0; j < colCount; j++){
+
+               System.out.println(table.cell(i,j));
+
+           }
+       }
 
         OrangeHRM lp = new OrangeHRM(Driver.getDriver());
 
-        List<Map<String,String>> data =  table.asMaps(String.class, String.class);
+        List<Map<String,String>> data2 =  table.asMaps(String.class, String.class);
 
-        for (Map<String,String> maps : data) {
+        for (Map<String,String> maps : data2) {
             String userId = maps.get("admin_id");
             String userPassword = maps.get("admin_pass");
 

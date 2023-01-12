@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
         plugin={
                 "html:target/report-parallel/report.html"
         },
-        features = "src/test/resources/features/08_DataTable.feature",
+        features = "src/test/resources/features/parallel.feature",
         glue = {"stepdefinitions", "hooks"}
 
 )

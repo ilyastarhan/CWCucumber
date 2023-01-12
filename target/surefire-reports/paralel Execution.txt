@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: paralel Execution
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 19.145 s <<< FAILURE! - in paralel Execution
+ #1(paralel Execution)  Time elapsed: 7.756 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: 
+Step [Thread id yi yazdir] is defined with 1 parameters at 'stepdefinitions.MyStepdefs.threadIdYiYazdir(java.lang.String)'.
+However, the gherkin step has 0 arguments.
+Step text: Thread id yi yazdir
+
+ #2(paralel Execution)  Time elapsed: 2.956 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: 
+Step [Thread id yi yazdir] is defined with 1 parameters at 'stepdefinitions.MyStepdefs.threadIdYiYazdir(java.lang.String)'.
+However, the gherkin step has 0 arguments.
+Step text: Thread id yi yazdir
+
+ #3(paralel Execution)  Time elapsed: 2.377 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: 
+Step [Thread id yi yazdir] is defined with 1 parameters at 'stepdefinitions.MyStepdefs.threadIdYiYazdir(java.lang.String)'.
+However, the gherkin step has 0 arguments.
+Step text: Thread id yi yazdir
+
+ #4(paralel Execution)  Time elapsed: 3.554 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: 
+Step [Thread id yi yazdir] is defined with 1 parameters at 'stepdefinitions.MyStepdefs.threadIdYiYazdir(java.lang.String)'.
+However, the gherkin step has 0 arguments.
+Step text: Thread id yi yazdir
+
+ #5(paralel Execution)  Time elapsed: 2.498 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: 
+Step [Thread id yi yazdir] is defined with 1 parameters at 'stepdefinitions.MyStepdefs.threadIdYiYazdir(java.lang.String)'.
+However, the gherkin step has 0 arguments.
+Step text: Thread id yi yazdir
+
